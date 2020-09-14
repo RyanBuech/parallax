@@ -1,0 +1,191 @@
+body {
+    text-align:center;
+    color: #ffffff;
+    background-color: rgb(48, 48, 48);
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  :root
+  {
+    --fadeInTime: 0s;
+  }
+  
+  .parallax {
+      min-height: 1000px;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;    
+      animation: ease 1s;
+      -webkit-animation: fadeIn ease var(--fadeInTime);
+      -moz-animation: fadeIn ease var(--fadeInTime);
+      -o-animation: fadeIn ease var(--fadeInTime);
+      -ms-animation: fadeIn ease var(--fadeInTime);
+      z-index: 0;
+  }
+  .content {
+      padding: 60px 300px;
+      background-color: rgb(48, 48, 48);
+  }
+  .parallax.bg-01 {
+      background-image: url(..//img/rudeoff\ Banner.png);
+  }
+  .parallax.r {
+    background-image: url(..//img/rudeoff\ Banner\ Logo.png);
+}
+  .parallax.bg-02 {
+      background-image: url(..//img/BF4.png);
+  }
+  .parallax.bg-03 {
+      background-image: url(http://drive.google.com/uc?export=view&id=1ZEfj9t62eSju6yr7ikTSZfZ6V6ev4Fcn);
+  }
+
+.iframe-marg
+{
+  margin: 15px;
+}
+
+.iframe-container {
+ 
+  padding-top: 56.25%; /* 16:9  */
+  position: relative;
+  /*margin: 10px;*/
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;   
+}
+
+.iframe-container .ytborder iframe 
+{
+  border: 2px solid;
+  border-color: #c4302b;
+  box-shadow: 0 0 10px #c4302b;
+  outline: none;
+  border-radius: 7px;
+  
+}
+
+.iframe-container .twitchborder iframe 
+{
+  border: 2px solid;
+  border-color: #6441a5 ;
+  box-shadow: 0 0 10px #6441a5 ;
+  outline: none;
+  border-radius: 7px;
+}
+
+.iframe-social-container
+{
+  max-height: 700px;
+  margin: 15px;
+}
+
+.iframe-social-container .twitterborder iframe 
+{
+  border: 2px solid !important;
+  border-color: #00acee !important ;
+  box-shadow: 0 0 10px #00acee  ;
+  outline: none;
+  border-radius: 7px;
+}
+
+.iframe-social-container .instagramborder iframe 
+{
+  border: 2px solid !important;
+  border-color: #3f729b !important;
+  box-shadow: 0 0 10px #3f729b !important;
+  outline: none!important;
+  border-radius: 7px !important;
+}
+
+  .column
+  {
+    float: left;
+    width: 50%;
+    padding: 0px;
+  }
+  .row:after
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column .iframe-container .iframe
+  {
+      padding: 10px;
+  }
+
+  .instagram-media
+  {
+     width: 100% !important;
+     height: 700px;
+     background: black !important;
+  }
+
+  .myShop
+  {
+      position: relative;
+      overflow: auto;
+  }
+
+  @media screen and (max-width: 1600px)
+  {
+    .content
+    {
+      padding: 60px 200px;
+    }
+  }
+
+  @media screen and (max-width: 1140px)
+  {
+      .column
+      {
+          width: 100%;
+          padding: 10px 0px;
+      }
+
+      .content
+      {
+          padding: 60px;
+      }
+  }
+
+  @media screen and (max-width: 500px)
+  {
+    .content
+    {
+      padding: 10px;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
