@@ -41,7 +41,7 @@ $(function(){
       }else{
         target2.css('background-position','center top');
       }
-      /*if(scrollY > scrollYStart3){
+      if(scrollY > scrollYStart3){
         target3.css('background-position-y', (scrollY - targetPosOT3) * targetFactor + 'px');
       }else{
         target3.css('background-position','center top');

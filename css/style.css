@@ -155,6 +155,16 @@ body {
       {
           padding: 60px;
       }
+
+      .parallax
+      {
+        min-height: 500px;
+        
+      }
+      .parallax.bg-02
+      {
+        background-position: top !important;
+      }
   }
 
   @media screen and (max-width: 500px)
